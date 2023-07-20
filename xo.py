@@ -37,7 +37,7 @@ class Solution:
             #type string: string
             #return type: boolean
             
-            string = string.upper()
+            #string = string.upper()
             xs = 0
             os = 0
             for i in range(len(string)):
