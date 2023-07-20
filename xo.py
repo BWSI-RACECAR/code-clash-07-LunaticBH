@@ -43,7 +43,7 @@ class Solution:
             for i in range(len(string)):
                 if string[i] == "X":
                     xs +=1
-                elif string[i] == "0":
+                elif string[i] == "O":
                     os += 1
             if xs == os:
                 return True
